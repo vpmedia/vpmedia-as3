@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ =BEGIN CLOSED LICENSE
+  ~
+  ~  Copyright (c) 2013-2014 Docmet Systems
+  ~  http://www.docmet.com
+  ~
+  ~  For information about the licensing and copyright please
+  ~  contact us at info@docmet.com
+  ~
+  ~  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+  ~  THE SOFTWARE.
+  ~
+  ~ =END CLOSED LICENSE
+  -->
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">  
+    <swf-version>${swf_version}</swf-version>
+    <target-player>${player_version}</target-player> 
+    <compiler>
+        <define append="true"><name>APP::VERSION</name><value>"1.0.0"</value></define>
+        <define append="true"><name>APP::DEBUG</name><value>true</value></define>
+        <define append="true"><name>VIEWPORT::WIDTH</name><value>800</value></define>
+        <define append="true"><name>VIEWPORT::HEIGHT</name><value>600</value></define>
+        <define append="true"><name>VIEWPORT::SCALE</name><value>1</value></define>        
+        <define append="true"><name>RUNTIME::AIR</name><value>true</value></define>    
+        <define append="true"><name>PLATFORM::DESKTOP</name><value>true</value></define>
+        <define append="true"><name>PLATFORM::MOBILE</name><value>false</value></define>
+        <define append="true"><name>PLATFORM::WEB</name><value>false</value></define>
+        <library-path append="true">
+            <path-element>../libs</path-element> 
+        </library-path>  
+    </compiler>
+    <metadata>
+        <title>Docmet Commons</title>
+        <description>Common Library</description>
+        <creator>Andras Csizmadia</creator>
+        <publisher>Docmet Systems</publisher>
+        <language>EN</language>
+    </metadata>
+</flex-config>
