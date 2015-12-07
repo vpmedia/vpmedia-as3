@@ -1,11 +1,11 @@
 /*
  * =BEGIN CLOSED LICENSE
  *
- *  Copyright (c) 2013 Docmet Systems
- *  http://www.docmet.com
+ *  Copyright (c) 2013 Andras Csizmadia
+ *  http://www.vpmedia.eu
  *
  *  For information about the licensing and copyright please
- *  contact us at info@docmet.com
+ *  contact us at info@vpmedia.eu
  *
  *  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
  *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
