@@ -1,1 +1,1 @@
-keytool -genkey -v -keystore docmet-systems-developer.keystore -alias DocmetSystems -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore vpmedia-developer.keystore -alias VPMedia -keyalg RSA -keysize 2048 -validity 10000
